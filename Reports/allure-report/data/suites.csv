@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Mar 05 21:38:27 IST 2020","Thu Mar 05 21:38:28 IST 2020","1506","","test_main","","","","test_send_msg",""
+"passed","Thu Mar 05 21:38:24 IST 2020","Thu Mar 05 21:38:24 IST 2020","823","","test_main","","","","test_enter_reciever",""
+"passed","Thu Mar 05 21:38:22 IST 2020","Thu Mar 05 21:38:24 IST 2020","1454","","test_main","","","","test_click_search",""
+"failed","Thu Mar 05 21:38:24 IST 2020","Thu Mar 05 21:38:25 IST 2020","222","","test_main","","","","test_verify_results",""
+"passed","Thu Mar 05 21:38:25 IST 2020","Thu Mar 05 21:38:27 IST 2020","1849","","test_main","","","","test_verify_cick",""
+"failed","Thu Mar 05 21:38:21 IST 2020","Thu Mar 05 21:38:22 IST 2020","1309","","test_main","","","","test_verify_search_btn",""

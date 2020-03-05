@@ -1,0 +1,104 @@
+{
+  "uid" : "5276dc761b2d3abe",
+  "name" : "test_verify_search_btn",
+  "fullName" : "test_main#test_verify_search_btn",
+  "historyId" : "c467729b24fd2eaa99963c88d59b6f44",
+  "time" : {
+    "start" : 1583424501197,
+    "stop" : 1583424502506,
+    "duration" : 1309
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'true' == False\n +  where 'true' = <bound method WebElement.get_attribute of <appium.webdriver.webelement.WebElement (session=\"fdd192ba-04b9-4708-8443-e2d45b67021f\", element=\"3f57d180-d4a7-4afd-bfc3-50eff9f60da4\")>>('clickable')\n +    where <bound method WebElement.get_attribute of <appium.webdriver.webelement.WebElement (session=\"fdd192ba-04b9-4708-8443-e2d45b67021f\", element=\"3f57d180-d4a7-4afd-bfc3-50eff9f60da4\")>> = <appium.webdriver.webelement.WebElement (session=\"fdd192ba-04b9-4708-8443-e2d45b67021f\", element=\"3f57d180-d4a7-4afd-bfc3-50eff9f60da4\")>.get_attribute\n +      where <appium.webdriver.webelement.WebElement (session=\"fdd192ba-04b9-4708-8443-e2d45b67021f\", element=\"3f57d180-d4a7-4afd-bfc3-50eff9f60da4\")> = <bound method HomePage.search_btn of <whatsapp.pages.HomePage.HomePage object at 0x0000014CA3D9CFC8>>()\n +        where <bound method HomePage.search_btn of <whatsapp.pages.HomePage.HomePage object at 0x0000014CA3D9CFC8>> = <whatsapp.pages.HomePage.HomePage object at 0x0000014CA3D9CFC8>.search_btn",
+  "statusTrace" : "set_up = None\n\n    def test_verify_search_btn(set_up):\n        print(home_page.search_btn().get_attribute(\"clickable\"))\n>       assert home_page.search_btn().get_attribute(\"clickable\") == False\nE       assert 'true' == False\nE        +  where 'true' = <bound method WebElement.get_attribute of <appium.webdriver.webelement.WebElement (session=\"fdd192ba-04b9-4708-8443-e2d45b67021f\", element=\"3f57d180-d4a7-4afd-bfc3-50eff9f60da4\")>>('clickable')\nE        +    where <bound method WebElement.get_attribute of <appium.webdriver.webelement.WebElement (session=\"fdd192ba-04b9-4708-8443-e2d45b67021f\", element=\"3f57d180-d4a7-4afd-bfc3-50eff9f60da4\")>> = <appium.webdriver.webelement.WebElement (session=\"fdd192ba-04b9-4708-8443-e2d45b67021f\", element=\"3f57d180-d4a7-4afd-bfc3-50eff9f60da4\")>.get_attribute\nE        +      where <appium.webdriver.webelement.WebElement (session=\"fdd192ba-04b9-4708-8443-e2d45b67021f\", element=\"3f57d180-d4a7-4afd-bfc3-50eff9f60da4\")> = <bound method HomePage.search_btn of <whatsapp.pages.HomePage.HomePage object at 0x0000014CA3D9CFC8>>()\nE        +        where <bound method HomePage.search_btn of <whatsapp.pages.HomePage.HomePage object at 0x0000014CA3D9CFC8>> = <whatsapp.pages.HomePage.HomePage object at 0x0000014CA3D9CFC8>.search_btn\n\ntest_main.py:21: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "set_up",
+    "time" : {
+      "start" : 1583424483563,
+      "stop" : 1583424501108,
+      "duration" : 17545
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'true' == False\n +  where 'true' = <bound method WebElement.get_attribute of <appium.webdriver.webelement.WebElement (session=\"fdd192ba-04b9-4708-8443-e2d45b67021f\", element=\"3f57d180-d4a7-4afd-bfc3-50eff9f60da4\")>>('clickable')\n +    where <bound method WebElement.get_attribute of <appium.webdriver.webelement.WebElement (session=\"fdd192ba-04b9-4708-8443-e2d45b67021f\", element=\"3f57d180-d4a7-4afd-bfc3-50eff9f60da4\")>> = <appium.webdriver.webelement.WebElement (session=\"fdd192ba-04b9-4708-8443-e2d45b67021f\", element=\"3f57d180-d4a7-4afd-bfc3-50eff9f60da4\")>.get_attribute\n +      where <appium.webdriver.webelement.WebElement (session=\"fdd192ba-04b9-4708-8443-e2d45b67021f\", element=\"3f57d180-d4a7-4afd-bfc3-50eff9f60da4\")> = <bound method HomePage.search_btn of <whatsapp.pages.HomePage.HomePage object at 0x0000014CA3D9CFC8>>()\n +        where <bound method HomePage.search_btn of <whatsapp.pages.HomePage.HomePage object at 0x0000014CA3D9CFC8>> = <whatsapp.pages.HomePage.HomePage object at 0x0000014CA3D9CFC8>.search_btn",
+    "statusTrace" : "set_up = None\n\n    def test_verify_search_btn(set_up):\n        print(home_page.search_btn().get_attribute(\"clickable\"))\n>       assert home_page.search_btn().get_attribute(\"clickable\") == False\nE       assert 'true' == False\nE        +  where 'true' = <bound method WebElement.get_attribute of <appium.webdriver.webelement.WebElement (session=\"fdd192ba-04b9-4708-8443-e2d45b67021f\", element=\"3f57d180-d4a7-4afd-bfc3-50eff9f60da4\")>>('clickable')\nE        +    where <bound method WebElement.get_attribute of <appium.webdriver.webelement.WebElement (session=\"fdd192ba-04b9-4708-8443-e2d45b67021f\", element=\"3f57d180-d4a7-4afd-bfc3-50eff9f60da4\")>> = <appium.webdriver.webelement.WebElement (session=\"fdd192ba-04b9-4708-8443-e2d45b67021f\", element=\"3f57d180-d4a7-4afd-bfc3-50eff9f60da4\")>.get_attribute\nE        +      where <appium.webdriver.webelement.WebElement (session=\"fdd192ba-04b9-4708-8443-e2d45b67021f\", element=\"3f57d180-d4a7-4afd-bfc3-50eff9f60da4\")> = <bound method HomePage.search_btn of <whatsapp.pages.HomePage.HomePage object at 0x0000014CA3D9CFC8>>()\nE        +        where <bound method HomePage.search_btn of <whatsapp.pages.HomePage.HomePage object at 0x0000014CA3D9CFC8>> = <whatsapp.pages.HomePage.HomePage object at 0x0000014CA3D9CFC8>.search_btn\n\ntest_main.py:21: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e4b1cd0fcda95185",
+      "name" : "stdout",
+      "source" : "e4b1cd0fcda95185.txt",
+      "type" : "text/plain",
+      "size" : 5
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "set_up::0",
+    "time" : {
+      "start" : 1583424508596,
+      "stop" : 1583424512047,
+      "duration" : 3451
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "host",
+    "value" : "Aniii"
+  }, {
+    "name" : "thread",
+    "value" : "10324-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5276dc761b2d3abe.json",
+  "parameterValues" : [ ]
+}

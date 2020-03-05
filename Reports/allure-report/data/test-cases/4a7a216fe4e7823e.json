@@ -1,0 +1,104 @@
+{
+  "uid" : "4a7a216fe4e7823e",
+  "name" : "test_verify_results",
+  "fullName" : "test_main#test_verify_results",
+  "historyId" : "eafe94d98acfb02d108832b2acfd63e5",
+  "time" : {
+    "start" : 1583424504953,
+    "stop" : 1583424505175,
+    "duration" : 222
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'Hackathon banglore' == 'Hackathon Banglore'\n  - Hackathon banglore\n  ?           ^\n  + Hackathon Banglore\n  ?           ^",
+  "statusTrace" : "set_up = None\n\n    def test_verify_results(set_up):\n        result_element = home_page.result()\n        assert len(result_element) == 1, \"target should be 1\"  # assert the total no. of result\n        assert result_element[0].is_displayed()\n>       assert result_element[0].text == \"Hackathon Banglore\"\nE       AssertionError: assert 'Hackathon banglore' == 'Hackathon Banglore'\nE         - Hackathon banglore\nE         ?           ^\nE         + Hackathon Banglore\nE         ?           ^\n\ntest_main.py:39: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "set_up",
+    "time" : {
+      "start" : 1583424483563,
+      "stop" : 1583424501108,
+      "duration" : 17545
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'Hackathon banglore' == 'Hackathon Banglore'\n  - Hackathon banglore\n  ?           ^\n  + Hackathon Banglore\n  ?           ^",
+    "statusTrace" : "set_up = None\n\n    def test_verify_results(set_up):\n        result_element = home_page.result()\n        assert len(result_element) == 1, \"target should be 1\"  # assert the total no. of result\n        assert result_element[0].is_displayed()\n>       assert result_element[0].text == \"Hackathon Banglore\"\nE       AssertionError: assert 'Hackathon banglore' == 'Hackathon Banglore'\nE         - Hackathon banglore\nE         ?           ^\nE         + Hackathon Banglore\nE         ?           ^\n\ntest_main.py:39: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5f8e9c5bce660725",
+      "name" : "stdout",
+      "source" : "5f8e9c5bce660725.txt",
+      "type" : "text/plain",
+      "size" : 2
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "set_up::0",
+    "time" : {
+      "start" : 1583424508596,
+      "stop" : 1583424512047,
+      "duration" : 3451
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "host",
+    "value" : "Aniii"
+  }, {
+    "name" : "thread",
+    "value" : "10324-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4a7a216fe4e7823e.json",
+  "parameterValues" : [ ]
+}

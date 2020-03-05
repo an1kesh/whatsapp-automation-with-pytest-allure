@@ -1,0 +1,61 @@
+[ {
+  "uid" : "fc925f50cf1f68ed",
+  "name" : "test_send_msg",
+  "time" : {
+    "start" : 1583424507087,
+    "stop" : 1583424508593,
+    "duration" : 1506
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da7f84bd7acd56bc",
+  "name" : "test_enter_reciever",
+  "time" : {
+    "start" : 1583424504122,
+    "stop" : 1583424504945,
+    "duration" : 823
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c8f6ae162a1d6b4",
+  "name" : "test_click_search",
+  "time" : {
+    "start" : 1583424502662,
+    "stop" : 1583424504116,
+    "duration" : 1454
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a7a216fe4e7823e",
+  "name" : "test_verify_results",
+  "time" : {
+    "start" : 1583424504953,
+    "stop" : 1583424505175,
+    "duration" : 222
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "77662ca95fc98107",
+  "name" : "test_verify_cick",
+  "time" : {
+    "start" : 1583424505230,
+    "stop" : 1583424507079,
+    "duration" : 1849
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5276dc761b2d3abe",
+  "name" : "test_verify_search_btn",
+  "time" : {
+    "start" : 1583424501197,
+    "stop" : 1583424502506,
+    "duration" : 1309
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'true' == False\n +  where 'true' = <bound method WebElement.get_attribute of <appium.webdriver.webelement.WebElement (session=\"fdd192ba-04b9-4708-8443-e2d45b67021f\", element=\"3f57d180-d4a7-4afd-bfc3-50eff9f60da4\")>>('clickable')\n +    where <bound method WebElement.get_attribute of <appium.webdriver.webelement.WebElement (session=\"fdd192ba-04b9-4708-8443-e2d45b67021f\", element=\"3f57d180-d4a7-4afd-bfc3-50eff9f60da4\")>> = <appium.webdriver.webelement.WebElement (session=\"fdd192ba-04b9-4708-8443-e2d45b67021f\", element=\"3f57d180-d4a7-4afd-bfc3-50eff9f60da4\")>.get_attribute\n +      where <appium.webdriver.webelement.WebElement (session=\"fdd192ba-04b9-4708-8443-e2d45b67021f\", element=\"3f57d180-d4a7-4afd-bfc3-50eff9f60da4\")> = <bound method HomePage.search_btn of <whatsapp.pages.HomePage.HomePage object at 0x0000014CA3D9CFC8>>()\n +        where <bound method HomePage.search_btn of <whatsapp.pages.HomePage.HomePage object at 0x0000014CA3D9CFC8>> = <whatsapp.pages.HomePage.HomePage object at 0x0000014CA3D9CFC8>.search_btn",
+      "children" : [ {
+        "name" : "test_verify_search_btn",
+        "uid" : "5276dc761b2d3abe",
+        "parentUid" : "908875006656ed24880dc65d0cd50139",
+        "status" : "failed",
+        "time" : {
+          "start" : 1583424501197,
+          "stop" : 1583424502506,
+          "duration" : 1309
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "908875006656ed24880dc65d0cd50139"
+    }, {
+      "name" : "AssertionError: assert 'Hackathon banglore' == 'Hackathon Banglore'\n  - Hackathon banglore\n  ?           ^\n  + Hackathon Banglore\n  ?           ^",
+      "children" : [ {
+        "name" : "test_verify_results",
+        "uid" : "4a7a216fe4e7823e",
+        "parentUid" : "89715d142bcc5758297e5fdfa4c3e20c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1583424504953,
+          "stop" : 1583424505175,
+          "duration" : 222
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "89715d142bcc5758297e5fdfa4c3e20c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

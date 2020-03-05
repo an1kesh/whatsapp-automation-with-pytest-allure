@@ -1,0 +1,118 @@
+{
+  "c467729b24fd2eaa99963c88d59b6f44" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5276dc761b2d3abe",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'true' == False\n +  where 'true' = <bound method WebElement.get_attribute of <appium.webdriver.webelement.WebElement (session=\"fdd192ba-04b9-4708-8443-e2d45b67021f\", element=\"3f57d180-d4a7-4afd-bfc3-50eff9f60da4\")>>('clickable')\n +    where <bound method WebElement.get_attribute of <appium.webdriver.webelement.WebElement (session=\"fdd192ba-04b9-4708-8443-e2d45b67021f\", element=\"3f57d180-d4a7-4afd-bfc3-50eff9f60da4\")>> = <appium.webdriver.webelement.WebElement (session=\"fdd192ba-04b9-4708-8443-e2d45b67021f\", element=\"3f57d180-d4a7-4afd-bfc3-50eff9f60da4\")>.get_attribute\n +      where <appium.webdriver.webelement.WebElement (session=\"fdd192ba-04b9-4708-8443-e2d45b67021f\", element=\"3f57d180-d4a7-4afd-bfc3-50eff9f60da4\")> = <bound method HomePage.search_btn of <whatsapp.pages.HomePage.HomePage object at 0x0000014CA3D9CFC8>>()\n +        where <bound method HomePage.search_btn of <whatsapp.pages.HomePage.HomePage object at 0x0000014CA3D9CFC8>> = <whatsapp.pages.HomePage.HomePage object at 0x0000014CA3D9CFC8>.search_btn",
+      "time" : {
+        "start" : 1583424501197,
+        "stop" : 1583424502506,
+        "duration" : 1309
+      }
+    } ]
+  },
+  "cdd1ebc0ab6821d37264a7a7d1b60cdf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6c8f6ae162a1d6b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583424502662,
+        "stop" : 1583424504116,
+        "duration" : 1454
+      }
+    } ]
+  },
+  "eafe94d98acfb02d108832b2acfd63e5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4a7a216fe4e7823e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'Hackathon banglore' == 'Hackathon Banglore'\n  - Hackathon banglore\n  ?           ^\n  + Hackathon Banglore\n  ?           ^",
+      "time" : {
+        "start" : 1583424504953,
+        "stop" : 1583424505175,
+        "duration" : 222
+      }
+    } ]
+  },
+  "55ab632e964df4833a721955dd51f408" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "da7f84bd7acd56bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583424504122,
+        "stop" : 1583424504945,
+        "duration" : 823
+      }
+    } ]
+  },
+  "77d90cba50afde3563d73b2205a0d4b1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "77662ca95fc98107",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583424505230,
+        "stop" : 1583424507079,
+        "duration" : 1849
+      }
+    } ]
+  },
+  "5e94d8765d008d88de20295566df68af" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fc925f50cf1f68ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583424507087,
+        "stop" : 1583424508593,
+        "duration" : 1506
+      }
+    } ]
+  }
+}
