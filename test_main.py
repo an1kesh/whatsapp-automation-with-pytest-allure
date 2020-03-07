@@ -18,7 +18,7 @@ def set_up():
 
 def test_verify_search_btn(set_up):
     print(home_page.search_btn().get_attribute("clickable"))
-    assert home_page.search_btn().get_attribute("clickable") == False
+    assert home_page.search_btn().get_attribute("clickable") == "false"
 
 
 def test_click_search(set_up):
