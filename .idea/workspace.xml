@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13b1a25b-ceb5-4b20-b526-4bb97e69abf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Websites/Flipkart/Locators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Websites/Flipkart/Pages/HomePage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Websites/Flipkart/Pages/ProfilePage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Websites/Flipkart/Pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Websites/Flipkart/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Websites/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dump_code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/g_utilities.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/googleChrome/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/googleChrome/chrome.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/googleChrome/locators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/googleChrome/pages/Homepage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/googleChrome/pages/SettingPge.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/googleChrome/pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/googleChrome/pages/chromepage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/googleChrome/pages/flip_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/googleChrome/pages/flip_logout.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/googleChrome/chrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/googleChrome/chrome.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,12 +162,26 @@
       <option name="presentableId" value="Default" />
       <updated>1582816053575</updated>
     </task>
+    <task id="LOCAL-00001" summary="2nd">
+      <created>1583542979781</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583542979781</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="2nd" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1583542976504">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1583542976504" />
     <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1583247468587">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

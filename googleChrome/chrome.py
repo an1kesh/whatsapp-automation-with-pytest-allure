@@ -30,10 +30,10 @@ def test():
     print(driver.contexts)
     print(driver.switch_to.context(driver.contexts[0]))
     print(driver.context)
-    driver.find_element_by_accessibility_id("More options").click()
+    '''driver.find_element_by_accessibility_id("More options").click()
     print(driver.find_elements_by_android_uiautomator(
-        'new UiSelector().resourceId("com.android.chrome:id/menu_item_text")')[8].text)
-    """
+        'new UiSelector().resourceId("com.android.chrome:id/menu_item_text")')[8].text)'''
+
 
     driver.find_element_by_accessibility_id("More options").click()
     driver.find_elements_by_android_uiautomator(
@@ -48,7 +48,7 @@ def test():
         'new UiSelector().className("android.widget.ImageButton").description("Navigate up")')[0].click()
     
     print(driver.switch_to.context(driver.contexts[1]))
-    print(driver.context)"""
+    print(driver.context)
     #FLIPKART
 
     driver.get("https://flipkart.com/")
@@ -57,7 +57,7 @@ def test():
 
 
 
-    """driver.find_element(By.XPATH, "//a[@class='_3NH1qf _2x71WM']").click()
+    driver.find_element(By.XPATH, "//a[@class='_3NH1qf _2x71WM']").click()
     time.sleep(3)
     driver.find_element(By.XPATH, "//span[@class='_3ZN6CT _P1NtA']").click()
     time.sleep(3)
@@ -75,7 +75,7 @@ def test():
     time.sleep(2)
     element1 = driver.find_element_by_xpath("//div[@class='_3L9xZy']")
     element2 = driver.find_element_by_xpath("(//div[@class='_3ulu7X'])[5]")
-    TouchAction(driver).press(element1).move_to(element2).release().perform()"""
+    TouchAction(driver).press(element1).move_to(element2).release().perform()
 
 
 
